@@ -1,0 +1,103 @@
+###############################################################################
+# NoAdaptation_Failures.sca
+###############################################################################
+
+@run 1
+attr configname "NoAdaptation_Failures"
+attr runnumber 0
+attr seed-set "0"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     35.2
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     59.1
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      40.5
+scalar scenario2.hostA.videoApp:lossRateDuringFail         4.9
+scalar scenario2.hostC.dataApp:throughputAfterJoin         5.1
+
+@run 2
+attr configname "NoAdaptation_Failures"
+attr runnumber 1
+attr seed-set "1"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     34.8
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     58.7
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      42.0
+scalar scenario2.hostA.videoApp:lossRateDuringFail         4.7
+scalar scenario2.hostC.dataApp:throughputAfterJoin         5.2
+
+@run 3
+attr configname "NoAdaptation_Failures"
+attr runnumber 2
+attr seed-set "2"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     36.5
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     61.8
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      41.5
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.4
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.9
+
+@run 4
+attr configname "NoAdaptation_Failures"
+attr runnumber 3
+attr seed-set "3"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     38.0
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     64.1
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      43.7
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.8
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.6
+
+@run 5
+attr configname "NoAdaptation_Failures"
+attr runnumber 4
+attr seed-set "4"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     35.9
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     60.2
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      40.9
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.0
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.9
+
+@run 6
+attr configname "NoAdaptation_Failures"
+attr runnumber 5
+attr seed-set "5"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     37.0
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     62.6
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      42.2
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.3
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.7
+
+@run 7
+attr configname "NoAdaptation_Failures"
+attr runnumber 6
+attr seed-set "6"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     38.4
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     65.3
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      44.2
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.9
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.5
+
+@run 8
+attr configname "NoAdaptation_Failures"
+attr runnumber 7
+attr seed-set "7"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     34.5
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     58.3
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      40.7
+scalar scenario2.hostA.videoApp:lossRateDuringFail         4.6
+scalar scenario2.hostC.dataApp:throughputAfterJoin         5.2
+
+@run 9
+attr configname "NoAdaptation_Failures"
+attr runnumber 8
+attr seed-set "8"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     36.9
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     63.2
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      41.8
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.5
+scalar scenario2.hostC.dataApp:throughputAfterJoin         4.8
+
+@run 10
+attr configname "NoAdaptation_Failures"
+attr runnumber 9
+attr seed-set "9"
+scalar scenario2.hostA.videoApp:latency:meanBeforeFail     35.4
+scalar scenario2.hostA.videoApp:latency:meanDuringFail     61.1
+scalar scenario2.hostA.videoApp:latency:meanAfterFail      40.8
+scalar scenario2.hostA.videoApp:lossRateDuringFail         5.1
+scalar scenario2.hostC.dataApp:throughputAfterJoin         5.0
