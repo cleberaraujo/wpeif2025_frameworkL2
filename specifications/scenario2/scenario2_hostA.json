@@ -31,8 +31,3 @@
   "timestamp": "2024-05-03T10:20:00Z",
   "scenarioNotes": "Cenario2_FluxoSensivel"
 }
-
-
-
-redundancyRequired: Indica desejo de rota alternativa caso o enlace principal falhe.
-faultTolerant: Requer reconfiguração para manter latência < 40 ms se houver uma rota secundária disponível.
