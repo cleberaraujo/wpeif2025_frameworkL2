@@ -1,0 +1,14 @@
+{
+  "applicationName": "HDMulticastStream",
+  "flowType": "multicast",
+  "requiredBandwidth": 5.0,
+  "maxLatency": 60,
+  "priorityLevel": 7,
+  "groupAddress": "224.1.2.3",
+  "qosParameters": {
+    "jitterTolerance": 20,
+    "lossTolerance": 2.0
+  },
+  "timestamp": "2024-05-03T10:30:00Z",
+  "scenarioNotes": "Cenario5_FonteMulticast"
+}

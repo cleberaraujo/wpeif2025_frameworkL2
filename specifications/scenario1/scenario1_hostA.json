@@ -1,0 +1,13 @@
+{
+    "applicationName": "VideoConferenceHD",
+    "flowType": "video",
+    "requiredBandwidth": 5.0,
+    "maxLatency": 50,
+    "priorityLevel": 8,
+    "qosParameters": {
+      "priority": "high",
+      "jitterTolerance": 15,
+      "lossTolerance": 1.0
+    },
+    "encryption": false
+}

@@ -1,0 +1,13 @@
+{
+  "applicationName": "MulticastReceiver_HostA",
+  "flowType": "multicastClient",
+  "joinGroup": "224.1.2.3",
+  "desiredJoinTime": 5,
+  "plannedLeaveTime": 15,
+  "qosParameters": {
+    "maxLatency": 50,
+    "lossTolerance": 1.0
+  },
+  "timestamp": "2024-05-03T10:30:00Z",
+  "scenarioNotes": "Cenario5_HostA_JoinLeave"
+}
